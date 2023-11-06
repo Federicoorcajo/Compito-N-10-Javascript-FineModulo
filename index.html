@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="/algoritmo.js"></script>
+    <header>
+      <h1>Cerca qui la tua Azienda!</h1>
+
+      <div id="Cercatore">
+        <label for="jobTitle"></label>
+        <input
+          type="text"
+          id="jobTitle"
+          placeholder="Inserisci il titolo lavorativo"
+        /><br />
+
+        <label for="location"></label>
+        <input
+          type="text"
+          id="location"
+          placeholder="Inserisci la posizione lavorativa"
+        /><br />
+
+        <button onclick="cercaEVisualizza()">Cerca</button><br /><br />
+        <ul id="risultati"></ul>
+      </div>
+    </header>
+  </body>
+</html>
